@@ -19,11 +19,14 @@ echo $prenom;
 $som=somme(10,5);
 echo $som;
 
-//3. boucles
+//declaration et initialisation du compteur
 $i=0;
-if($i<2){
+//3.la condition
+if($i<6){
+    //4.la boucle
 do{
     $i=$i+1;
     echo $i;
 }while($i<6);
+
 }
