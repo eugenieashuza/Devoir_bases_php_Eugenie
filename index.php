@@ -4,9 +4,9 @@ $nom  = "eugenie </br>";
 $prenom = "danais";
 
 //affichage des variables
-echo $nom;
+echo "nom: " .$nom;
 echo '</br>';
-echo $prenom;
+echo "prenom: " .$prenom;
 
 //2.fonction
 
@@ -21,12 +21,15 @@ echo $prenom;
 
 $som = somme(10,5);
 echo '</br>';
-echo $som;
+
+echo " 10 + 5 = " .$som;
 
 //declaration et initialisation du compteur
 $i=0;
 
     //3.la boucle
+    echo '</br>';
+    echo "affichage de i ";
 do{
     $i = $i + 1;
     echo '</br>';
@@ -36,11 +39,14 @@ do{
 //4.la condition
 $nb1 = 2;
 $nb2 = 6;
+echo '</br>';
+echo "soustration de " .$nb2. " - " .$nb1. " = ";
 
 if($nb2 > $nb1){
   $result = $nb2 - $nb1;
-  echo '</br>';
+ 
   echo $result;
+  echo '</br>';
 }else{
     $result = $nb2 + $nb1;
     echo '</br>';
@@ -48,7 +54,8 @@ if($nb2 > $nb1){
 }
 
 //5. boucle for
-
+echo "message d'acceuil";
+echo '</br>';
 for($j=1;$j<5;$j++)
 {
 
