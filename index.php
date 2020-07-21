@@ -1,10 +1,11 @@
 <?php
 //1.les variables
-$nom  = eugenie;
-$prenom = danais;
+$nom  = "eugenie </br>";
+$prenom = "danais";
 
 //affichage des variables
 echo $nom;
+echo '</br>';
 echo $prenom;
 
 //2.fonction
@@ -19,6 +20,7 @@ echo $prenom;
 //utilisation de la fonction somme
 
 $som = somme(10,5);
+echo '</br>';
 echo $som;
 
 //declaration et initialisation du compteur
@@ -27,6 +29,7 @@ $i=0;
     //3.la boucle
 do{
     $i = $i + 1;
+    echo '</br>';
     echo $i;
 }while($i<6);
 
@@ -36,9 +39,11 @@ $nb2 = 6;
 
 if($nb2 > $nb1){
   $result = $nb2 - $nb1;
+  echo '</br>';
   echo $result;
 }else{
     $result = $nb2 + $nb1;
+    echo '</br>';
     echo $result;
 }
 
@@ -46,7 +51,9 @@ if($nb2 > $nb1){
 
 for($j=1;$j<5;$j++)
 {
+
     echo "bienvenu";
+    echo '</br>';
 }
 
 ?>
