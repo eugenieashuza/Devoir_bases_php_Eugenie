@@ -15,6 +15,15 @@ echo $prenom;
      return $som;
     
 }
+//utilisation de la fonction somme
 $som=somme(10,5);
 echo $som;
 
+//3. boucles
+$i=0;
+if($i<2){
+do{
+    $i=$i+1;
+    echo $i;
+}while($i<6);
+}
