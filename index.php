@@ -40,3 +40,10 @@ if($nb2 > $nb1){
     echo $result;
 }
 
+//5. boucle for
+
+for($j=1;$j<5;$j++)
+{
+    echo "bienvenu";
+}
+
