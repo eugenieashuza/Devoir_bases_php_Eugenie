@@ -15,5 +15,6 @@ echo $prenom;
      return $som;
     
 }
-$som=
+$som=somme(10,5);
+echo $som;
 
