@@ -2,6 +2,7 @@
 //1.les variables
 $nom  = eugenie;
 $prenom = danais;
+
 //affichage des variables
 echo $nom;
 echo $prenom;
@@ -16,6 +17,7 @@ echo $prenom;
     
 }
 //utilisation de la fonction somme
+
 $som = somme(10,5);
 echo $som;
 
@@ -46,4 +48,6 @@ for($j=1;$j<5;$j++)
 {
     echo "bienvenu";
 }
+
+?>
 
